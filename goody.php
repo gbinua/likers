@@ -29,7 +29,7 @@ for ($x = 0;$x < $NoofDum;$x++) {
     array_push($dummyarray, "$Dummy",);
 }
 ";
-echo "$yellow
+echo "=========================================================";
 $pass = readline('Enter Dummy Password: ');
 echo "$yellow
 ";
