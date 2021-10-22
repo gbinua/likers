@@ -28,6 +28,8 @@ for ($x = 0;$x < $NoofDum;$x++) {
     $Dummy = readline('Enter Dummy Username: ');
     array_push($dummyarray, "$Dummy",);
 }
+";
+echo "$yellow
 $pass = readline('Enter Dummy Password: ');
 echo "$yellow
 ";
