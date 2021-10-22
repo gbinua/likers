@@ -10,7 +10,7 @@ echo "$green
 ";
 echo "=========================================================";
 $green = "\e[0;92m" ;
-echo "$yellow           LYKA FARM $green ✓ $yellow (Emmanuel)
+echo "$yellow LYKA FARM $green ✓ $yellow (GoodyB)
 $green=========================================================
  $yellow NEED 4 MAIN USERNAME NA MAY 10 POST EVERYDAY PARA    
    YUN ANG i'MAMAXRATE NG MGA DUMMY ACCOUNT MO
@@ -31,6 +31,8 @@ for ($x = 0;$x < $NoofDum;$x++) {
 ";
 ";
 echo "=========================================================";
+";
+";
 $pass = readline('Enter Dummy Password: ');
 echo "$yellow
 ";
