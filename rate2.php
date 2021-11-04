@@ -1779,6 +1779,3 @@ Added gems to dummy: +$fbal GEMS
     echo "
 ";
 }
-function addPosts($user, $bearer, $device_id) {
-    echo "
- Adding posts to $user 
