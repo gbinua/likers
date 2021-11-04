@@ -1982,3 +1982,6 @@ function addPosts($user, $bearer, $device_id) {
 
         return $valdata;
     }
+    }
+    
+      }
