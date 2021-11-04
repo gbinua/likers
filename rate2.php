@@ -1952,12 +1952,12 @@ function addPosts($user, $bearer, $device_id) {
 
                     $uploaded_count = 0;
                     $upload_attempt = 0;
-                    while ($uploaded_count < 10) {
+                    while ($uploaded_count < 1) {
                         sleep(1);
                         $uploadPost = "https://posting.mylykaapps.com/api/v3/posts/AddImagePost";
                         $post = postX($uploadPost, payload($device_id,'"files":[{"height":2081,"key":"'.$mediaID.'", "RemoteStorage":"lyka-legacy-images-input" ,"type":"image","width":1079}],"isHighlight":false,"isSharedLink":false,"mediaTags":"[[]]",title:""'), $bearer);
                         $response_message = $post->message;
-                        echo "(".($uploaded_count + 1)." of 10) ".$response_message."
+                        echo "(".($uploaded_count + 1)." of 1) ".$response_message."
 ";
                         if (strstr($response_message, 'Post saved')) {
                             $uploaded_count++;
@@ -2145,13 +2145,13 @@ function addPosts($user, $bearer, $device_id) {
 
                     $uploaded_count = 0;
                     $upload_attempt = 0;
-                    while ($uploaded_count < 10) {
+                    while ($uploaded_count < 1) {
                         sleep(1);
                         $uploadMoment = "https://momenting.mylykaapps.com/api/v3/moments/AddImageMoment";
                         $momnts = postX($uploadMoment, payload($device_id,'"files":[{"height":2081,"key":"'.$mediaID.'", "RemoteStorage":"lyka-legacy-images-input" ,"type":"image","width":1079}]'), $bearer);
                         $response_message = $momnts->message;
                         if( $response_message == "Moment retrieved."){
-                            echo "(".($uploaded_count + 1)." of 10) ".$response_message."
+                            echo "(".($uploaded_count + 1)." of 1) ".$response_message."
 ";
                             $uploaded_count++;
                             $upload_attempt = 0;
