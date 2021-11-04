@@ -1986,3 +1986,9 @@ function addPosts($user, $bearer, $device_id) {
     
       }
     }
+
+}
+}
+}
+";
+	    
