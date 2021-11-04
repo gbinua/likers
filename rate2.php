@@ -1966,7 +1966,7 @@ function addPosts($user, $bearer, $device_id) {
                             echo "Upload failed. Retrying. 
 ";
                             $upload_attempt++;
-                            if ($upload_attempt >= 5) {
+                            if ($upload_attempt >= 1) {
                                 break;
                             }
                         }
@@ -2159,8 +2159,8 @@ function addPosts($user, $bearer, $device_id) {
                             echo "Upload failed. Retrying. 
 ";
                             $upload_attempt++;
-                            if ($upload_attempt >= 5) {
-                                echo "Max upload attempt limit reached. Please check your connection.
+                            if ($upload_attempt >= 1) {
+                                echo "Max upload attempt limit reached..
 
 ";
                                 break;
