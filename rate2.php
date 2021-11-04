@@ -1790,12 +1790,7 @@ function addPosts($user, $bearer, $device_id) {
 
  Adding moments to $user 
 }
-        }
-    }
 
-}
- }
- }
 ";
  
  function getUserId($rDevID, $mcCookie){
