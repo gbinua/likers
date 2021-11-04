@@ -1979,22 +1979,6 @@ function addPosts($user, $bearer, $device_id) {
             return $postjson;
     }
 
-    function payload($devIDx, $xtraPay, $rTokenx = ""){
-        $valdata = <<<DATA
-                {"device": {
-                    "deviceId": "$devIDx",
-                    "deviceImei": "",
-                    "deviceModel": "Xiaomi Redmi Note 5",
-                    "deviceName": "android",
-                    "deviceOs": "Android R ",
-                    "isEmulator": false,
-                    "osVersion": "30",
-                    "notificationToken": "$rTokenx"
-                },
-                "countryCode": "US",
-                $xtraPay
-                }
-                DATA; 
 
         return $valdata;
     }
