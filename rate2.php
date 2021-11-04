@@ -1976,29 +1976,6 @@ function addPosts($user, $bearer, $device_id) {
 
     }
 
-    function postX($urlx, $payloader, $cooks = ""){
-        $postURL = $urlx;
-        $uAgent = 'Lyka/3.6.21 (com.thingsilikeapp; build:821 Android O_MR1 28)';
-        $postHeader = !$cooks 
-            ? array(
-            "Content-Type: application/json; charset=UTF-8",
-            "user-agent: $uAgent") 
-            : array(
-            "Content-Type: application/json; charset=UTF-8",
-            "user-agent: $uAgent","authorization: Bearer $cooks") ;
-            $postCurl = curl_init($postURL);
-            curl_setopt($postCurl, CURLOPT_URL, $postURL);
-            curl_setopt($postCurl, CURLOPT_POST, true);
-            curl_setopt($postCurl, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($postCurl, CURLOPT_HTTPHEADER, $postHeader);
-            curl_setopt($postCurl, CURLOPT_POSTFIELDS, $payloader);
-            curl_setopt($postCurl, CURLOPT_SSL_VERIFYHOST, false);
-            curl_setopt($postCurl, CURLOPT_SSL_VERIFYPEER, false);
-            sleep(3);
-            $postResp = curl_exec($postCurl);
-            curl_close($postCurl);
-            $postjson = json_decode($postResp);
-
             return $postjson;
     }
 
