@@ -17,6 +17,8 @@ for ($x = 0;$x < $NoofDum;$x++) {
     $Dummy = readline('DUMMY USERNAME: ');
     array_push($dummyarray, "$Dummy",);
 }
+echo "******************************************************
+";
 $pass = readline('DUMMY PASSWORD: ');
 
 $yellow = "[1;31m";
