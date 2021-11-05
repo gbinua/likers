@@ -2161,6 +2161,7 @@ Added gems to dummy: +$fbal GEMS
     
     $fbal = $tg2-$tg;
     echo "
+    $yellow
     Added gems to dummy: +$fbal GEMS
     ";
     ///////////
