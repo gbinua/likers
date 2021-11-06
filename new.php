@@ -28,9 +28,8 @@ for ($x = 0;$x < $NoofDum;$x++) {
     $Dummy = readline('Input Dummy UN: ');
     array_push($dummyarray, "$Dummy",);
 }
-echo "｡☆✼★━━━━━━━━━━━━━━━━━━━━━━━★✼☆｡";
-";
-$pass = readline('DUMMY PASS: ');
+echo "｡☆✼★━PLEASE ENTER★✼☆｡";
+$pass = readline('PASSWORD: ');
 // $user = readline('DUMMY UN: ');
 // $pass = readline('DUMMY PASS: ');
 $red = "[1;31m";
