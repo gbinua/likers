@@ -4,7 +4,7 @@ echo "$b
 
 ";
 echo "
-█  version:PREMIUM ";
+ ";
 $yellow = "[0;32m";
 echo "$yellow
 ";
