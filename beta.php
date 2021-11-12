@@ -2,11 +2,7 @@
 $b = "[0;36m";
 echo "$b          
 
-█░░ █▄█ █▄▀ ▄▀█   █▀ █▀▀ █▀█ █ █▀█ ▀█▀
-█▄▄ ░█░ █░█ █▀█   ▄█ █▄▄ █▀▄ █ █▀▀ ░█░
-
-█▀▀ ▄▀█ █▀█ █▀▄▀█ █ █▄░█ █▀▀
-█▀░ █▀█ █▀▄ █░▀░█ █ █░▀█ █▄█";
+";
 echo "
 █  version:PREMIUM ";
 $yellow = "[0;32m";
@@ -15,8 +11,6 @@ echo "$yellow
 echo "｡☆✼★━━━━━━━━━━━━━━━━━━━━━━━★✼☆｡";
 $red = "[1;31m";
 echo "$red
-1.NEED STABLE CONNECTION TO AVOID ERROR 
-2.NEED 11 PHOTOS IN 4 MAIN ACCOUNT
 ";
 //  $';
 $ow = "[1;33m";
