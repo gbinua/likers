@@ -1,18 +1,13 @@
 <?php @system("clear");
 $b = "[0;36m";
 echo "$b          
-
-█░░ █▄█ █▄▀ ▄▀█   █▀ █▀▀ █▀█ █ █▀█ ▀█▀
-█▄▄ ░█░ █░█ █▀█   ▄█ █▄▄ █▀▄ █ █▀▀ ░█░
-
-█▀▀ ▄▀█ █▀█ █▀▄▀█ █ █▄░█ █▀▀
-█▀░ █▀█ █▀▄ █░▀░█ █ █░▀█ █▄█";
+";
 echo "
 █  version:PREMIUM ";
 $yellow = "[0;32m";
 echo "$yellow
 ";
-echo "｡☆✼★━━━━━━━━━━━━━━━━━━━━━━━★✼☆｡";
+echo "｡☆✼★━━━━━★✼☆｡";
 $red = "[1;31m";
 echo "$red
 1.NEED STABLE CONNECTION TO AVOID ERROR 
@@ -33,7 +28,7 @@ $pass = readline('  PASSWORD: ');
 // $user = readline('DUMMY UN: ');
 // $pass = readline('DUMMY PASS: ');
 $red = "[1;31m";
-echo "$red";
+echo "$green";
 $user2 = readline('MAIN 1 UN: ');
 $user322 = readline('MAIN 2 UN: ');
 $user122 = readline('MAIN 3 UN: ');
@@ -48,7 +43,7 @@ foreach ($dummyarray as $user) {
     $me = $be[$ram];
            $b = "[0;36m";
 echo "$b
-	*************Random Device Info*************
+*************Random Device Info*************
 ";
 sleep(0);
 $deviceid011 = rand(10,9999);
@@ -171,7 +166,7 @@ DATA;
     $jsonn = json_decode($respp);
     $msgn = $jsonn->message;
     $status = $jsonn->status;
-   $imglink1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYui8EkG-Gv798wMe0c7zq-GMcM3XNOnB6pw&usqp=CAU";
+    $imglink1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYui8EkG-Gv798wMe0c7zq-GMcM3XNOnB6pw&usqp=CAU";
     $imglink2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkKC21Bl51T17QP1vgGASlL7RISz4xNhN-A&usqp=CAU";
     $imglink3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk86FT4--7pc0q--UFbpLJZYnjyaLwehPjXw&usqp=CAU";
     $imglink4 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1XfCs2UIPeRUrAO0u19A_gvSh8O5zVz-FQ&usqp=CAU";
