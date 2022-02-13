@@ -45,8 +45,7 @@ foreach ($dummyarray as $user) {
     $me = $be[$ram];
 $ow = "[1;33m";
 echo "$ow
-==ANTI DETECT==
-" ;
+===== ANTI DETECT =====" ;
 sleep(0);
 $deviceid011 = rand(10,9999);
 $deviceid022 = rand(10,9999);
@@ -132,16 +131,13 @@ $coreImei = $imieid = "86552$deviceid011$deviceid033";
 $coredeviceid = $deviceiddd = "$deviceid011$deviceid011$deviceid033$deviceid011";
 $b = "[1;35m";
 echo "$b
-brand : 	$corebrand
-" ;
+brand : 	$corebrand" ;
 $ow = "[1;33m";
 echo "$ow
-Imei : 		$coreImei
-" ;
+Imei : 		$coreImei" ;
 $green = "[1;32m";
 echo "$green
-Device ID : 	$coredeviceid
-";
+Device ID : 	$coredeviceid";
     $urll = "https://identity.mylykaapps.com/useraccounts/login";
     $curll = curl_init($urll);
     curl_setopt($curll, CURLOPT_URL, $urll);
@@ -219,8 +215,7 @@ $hashtags1 = "";
     $bearer = $jsonn->data->token->accessToken;
     echo $red = "[1;33m";
     echo "$red
-$vuser was LOGGED IN
-";
+$vuser was LOGGED IN";
     $urlbal = "https://wallets.mylykaapps.com/api/v3/wallets/getgems?os=android";
     $curlbal = curl_init($urlbal);
     curl_setopt($curlbal, CURLOPT_URL, $urlbal);
@@ -233,13 +228,13 @@ $vuser was LOGGED IN
     $jsonbal = json_decode($respbal);
     $tg = $jsonbal->data->totalGem;
     echo "
-DUMMY BALANCE : $tg GEMS
-";
+DUMMY BALANCE : $tg GEMS";
 echo " 
 $vuser  RATING POST OF $user2
 ";
     if ($status == 0) {
-        echo "mali password ng dummy 
+   echo "$red";    
+	    echo "mali password ng dummy 
 ";
         //echo $bearer;
         //////
