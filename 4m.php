@@ -233,7 +233,6 @@ echo "
 $vuser  RATING POST OF $user2
 ";
     if ($status == 0) {
-   echo "$red";    
 	    echo "mali password ng dummy 
 ";
         //echo $bearer;
@@ -2716,7 +2715,7 @@ Added gems to dummy: +$fbal GEMS
                         $response_message = $momnts->message;
                         if( $response_message == "Moment retrieved."){
                             echo "$response_message";
-                              echo"Kaumay Na";
+                              echo"OK";
                             $uploaded_count++;
                             $upload_attempt = 0;
                         } else {
