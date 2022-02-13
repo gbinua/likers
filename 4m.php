@@ -13,9 +13,7 @@ echo "$ow" ;
 
 $green = "[1;32m";
 echo "$green
- 👉🅃🄴🄰🄼 🄿🄰🄻🄰🄼🄰🄽👈
 ";
-
 echo "
  " ;
 //  $';
@@ -47,7 +45,7 @@ foreach ($dummyarray as $user) {
     $me = $be[$ram];
 $ow = "[1;33m";
 echo "$ow
-===============ANTI DETECT===============
+==ANTI DETECT==
 " ;
 sleep(0);
 $deviceid011 = rand(10,9999);
@@ -129,7 +127,6 @@ $brand001 = array("iPhone 3G","iPhone 3GS","iPhone 4","iPhone 4S","iPhone 5","iP
 "Vivo Y69","Vivo V5s","Vivo Y53","Vivo Y66","Vivo Y25","Vivo Y55s","Vivo V5 Lite","Vivo V5 Plus","Vivo Xplay6","Vivo X9 Plus","Vivo X9","Vivo V5","Vivo Y55L","Vivo Y21L","Vivo X7 Plus","Vivo X7","Vivo X6S Plus","Vivo X6S","Vivo Y31L","Vivo Y31A","Vivo Xplay5","Vivo Xplay5 Elite","Vivo Y51L","Vivo X6 Plus","Vivo X6","Vivo Y51","Vivo Y27L","Vivo Y15S","Vivo V1Max","Vivo V1","Vivo X5Pro","Vivo X5Max+",
 "Vivo X5S L","Vivo X Shot","Vivo X3S","Vivo Y15","Vivo Y22","Vivo X5Max","Vivo Y70s","Vivo S10e","Vivo S10e","Vivo Y21","Vivo Y75 5G","Vivo V21 SE","Vivo S6","Vivo Y83 Pro","Vivo X9s Plus","Vivo X9s","Vivo V3Max","Vivo V3");
 $brand00 = $brand001[rand(0,1776)];
-
 $corebrand = $brand00 = $brand001[rand(0,1776)];
 $coreImei = $imieid = "86552$deviceid011$deviceid033";
 $coredeviceid = $deviceiddd = "$deviceid011$deviceid011$deviceid033$deviceid011";
@@ -222,7 +219,7 @@ $hashtags1 = "";
     $bearer = $jsonn->data->token->accessToken;
     echo $red = "[1;33m";
     echo "$red
-$vuser was logged in
+$vuser was LOGGED IN
 ";
     $urlbal = "https://wallets.mylykaapps.com/api/v3/wallets/getgems?os=android";
     $curlbal = curl_init($urlbal);
