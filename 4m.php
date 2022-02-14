@@ -137,7 +137,7 @@ echo "$ow
 Imei : 		$coreImei" ;
 $green = "[1;32m";
 echo "$green
-Device ID : 	$coredeviceid";
+Device ID : 	$coredeviceid" ;
     $urll = "https://identity.mylykaapps.com/useraccounts/login";
     $curll = curl_init($urll);
     curl_setopt($curll, CURLOPT_URL, $urll);
